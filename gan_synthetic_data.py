@@ -2,8 +2,8 @@
 # gan_synthetic_data.py
 
 # ====================================================
-# 🧠 Fraud Assignment 4 - GAN-Based Synthetic Data Generation
-# Authors: Prince Verma (SM24MTECH11003), Nagarjuna Polisetti (SM24MTECH14009)
+# GAN-Based Synthetic Data Generation
+# Authors: Prince Verma (SM24MTECH11003)
 # ====================================================
 
 # === Import Required Libraries ===
