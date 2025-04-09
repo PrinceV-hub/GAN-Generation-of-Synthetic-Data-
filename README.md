@@ -92,6 +92,7 @@ This project aims to generate **synthetic tabular data** using a **Generative Ad
 | `synthetic_data.csv` | Output synthetic dataset |
 | `gan_loss_plot.png` | Plot of Generator & Discriminator loss curves |
 | `README.md` | Project documentation |
+| `Requirement.txt` | Requirement file
 
 ---
 
