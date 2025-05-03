@@ -49,5 +49,5 @@ def train_gan(generator, discriminator, data_scaled, latent_dim, epochs=5000, ba
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig("outputs/gan_loss_plot.png")
+    plt.savefig("gan_loss_plot.png")
     return generator
