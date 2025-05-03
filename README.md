@@ -1,3 +1,5 @@
+# 🧬 Synthetic Tabular Data Generator using GAN
+
 ## 📌 Objective
 
 This project aims to generate **synthetic tabular data** using a **Generative Adversarial Network (GAN)** and evaluate how closely it mimics the **real dataset**. The comparison is done via **feature-wise distribution plots** and **pairwise Pearson correlation heatmaps**.
@@ -15,7 +17,7 @@ This project aims to generate **synthetic tabular data** using a **Generative Ad
 
 ## ⚙️ Methodology
 
-### 1. 🧠 GAN Architecture
+### 🧠 GAN Architecture
 
 #### Generator
 - Input: Random noise vector (latent space)
@@ -31,48 +33,43 @@ This project aims to generate **synthetic tabular data** using a **Generative Ad
 
 ## 🔁 Training Process
 
-- Total epochs: `5000`  
-- Batch size: `64`  
-- Loss: Binary Cross-Entropy  
-- Optimizer: Adam (`lr = 0.0002`)  
-- Generator and Discriminator losses are tracked and plotted over epochs.
+- **Epochs**: 5000  
+- **Batch Size**: 64  
+- **Loss Function**: Binary Cross-Entropy  
+- **Optimizer**: Adam (`lr = 0.0002`)  
+- **Monitoring**: Generator and Discriminator losses plotted over epochs
+
+---
 
 ## 📊 Evaluation Metrics
 
 ### 1. Feature Distribution Comparison
-
-- For each feature, KDE plots show the distribution of:
+- KDE plots for each feature show the distribution of:
   - Real data (Blue)
   - Synthetic data (Orange)
-- This shows how well the synthetic data mimics each real feature.
+- Highlights how well synthetic features mimic real ones.
 
 ### 2. Pearson Correlation Heatmaps
-
 - Correlation matrices are computed for:
   - Real dataset
   - Synthetic dataset
-- Heatmaps show inter-feature relationships and structural similarity.
+- Heatmaps visualize inter-feature relationships and structural similarity.
 
 ---
 
 ## 🖼️ Visual Outputs
 
-### ✅ KDE Distribution Example
+- ✅ KDE Distribution Plots for real vs synthetic features  
+- ✅ Pearson Correlation Heatmaps  
+- ✅ Generator vs Discriminator Loss Curve
 
-### ✅ Correlation Matrix Example
+You can find the generated visuals in the `outputs/` folder.
 
 ---
 
-## 💾 Files in Repository
+## 📁 Project Structure
 
-| File | Description |
-|------|-------------|
-| `data.xlsx` | Input Excel file with real tabular data |
-| `gan_synthetic_data.py` | Python script for GAN training, generation, and evaluation |
-| `synthetic_data.csv` | Output synthetic dataset |
-| `gan_loss_plot.png` | Plot of Generator & Discriminator loss curves |
-| `README.md` | Project documentation |
-| `Requirement.txt` | Requirement file
+
 
 ---
 
@@ -81,4 +78,7 @@ This project aims to generate **synthetic tabular data** using a **Generative Ad
 ### 1. 📦 Install Dependencies
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn torch openpyxl
+pip install -r requirements.txt
+```
+``` Run the code
+python main.py
