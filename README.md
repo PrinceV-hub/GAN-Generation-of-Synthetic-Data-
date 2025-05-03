@@ -63,7 +63,6 @@ This project aims to generate **synthetic tabular data** using a **Generative Ad
 - ✅ Pearson Correlation Heatmaps  
 - ✅ Generator vs Discriminator Loss Curve
 
-You can find the generated visuals in the `outputs/` folder.
 
 ---
 
