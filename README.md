@@ -1,12 +1,3 @@
-# GAN-Based Synthetic Data Generation
-
-> **Course:** SM24 M.Tech – Advanced Machine Learning  
- 
-> - **Prince Verma** – SM24MTECH11003  
-
-
----
-
 ## 📌 Objective
 
 This project aims to generate **synthetic tabular data** using a **Generative Adversarial Network (GAN)** and evaluate how closely it mimics the **real dataset**. The comparison is done via **feature-wise distribution plots** and **pairwise Pearson correlation heatmaps**.
@@ -46,11 +37,6 @@ This project aims to generate **synthetic tabular data** using a **Generative Ad
 - Optimizer: Adam (`lr = 0.0002`)  
 - Generator and Discriminator losses are tracked and plotted over epochs.
 
-### 🔻 Loss Curve
-![GAN Loss Curve](gan_loss_plot.png)
-
----
-
 ## 📊 Evaluation Metrics
 
 ### 1. Feature Distribution Comparison
@@ -73,13 +59,7 @@ This project aims to generate **synthetic tabular data** using a **Generative Ad
 
 ### ✅ KDE Distribution Example
 
-![Feature Distribution](example_kde_plot.png)
-
 ### ✅ Correlation Matrix Example
-
-| Real Data | Synthetic Data |
-|-----------|----------------|
-| ![Real Corr](real_corr.png) | ![Synth Corr](synthetic_corr.png) |
 
 ---
 
