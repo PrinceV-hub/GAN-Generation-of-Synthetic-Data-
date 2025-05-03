@@ -1,11 +1,3 @@
-
-# gan_synthetic_data.py
-
-# ====================================================
-# GAN-Based Synthetic Data Generation
-# Authors: Prince Verma (SM24MTECH11003)
-# ====================================================
-
 # === Import Required Libraries ===
 import pandas as pd
 import numpy as np
